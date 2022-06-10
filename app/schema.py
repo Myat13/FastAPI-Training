@@ -41,15 +41,10 @@ class PostCreate(PostBase):
 
 
 class Post(BaseModel):
-<<<<<<< HEAD
-    title: str
-    content: str
-=======
     id: int
     title: str
     content: str
     published: bool = True
->>>>>>> 82a0beb05b82e6c6ce71d371be5720cd649de3a9
     owner_id: int
     owner: UserResponse
     
