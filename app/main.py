@@ -19,4 +19,4 @@ app.include_router(votes.router)
 
 @app.get('/')
 def root():
-    return {"message": "Greeting from FastAPI"}
+    return {"message": "Greeting from FastAPI with CI"}
