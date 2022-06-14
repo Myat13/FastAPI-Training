@@ -50,8 +50,4 @@ jobs:
           pip install pytest
           pytest
 
-        env:
-        # The hostname used to communicate with the PostgreSQL service container
-          POSTGRES_HOST: ${{secrets.DATABASE_NAME}}_test
-        # The default PostgreSQL port
-          POSTGRES_PORT: 5432
+        
